@@ -1,19 +1,18 @@
 body {
-    background-color: #638a79;
-    background-image: url("img/body-bg.png");
-    background-repeat: repeat-x;
-    background-position: fixed;
     font-size: 13px;
     line-height: 18px; 
     color: #333;
     font-family: Arial;
-      
+    font: 13px/18px Arial;
+    background-color: #638a79;
+    background-image: url("img/body-bg.png");
+    background-repeat: repeat-x;
+    background-position: fixed;
 }
 
 .content {
     width: 840px;
-    border-radius: 10px;
-    margin: 100px auto;
+    margin: 100px auto 0px auto;
     background-color: #fff;
 }
 
@@ -21,14 +20,12 @@ body {
     height: 12px;
     background-image: url("img/content-bg.png");
     background-position: 0px 0px;
-    border-radius: 10px 10px 0 0;
 }
 
 .content .content-bottom {
     height: 12px;
     background-image: url("img/content-bg.png");
-    background-position: 0px -840px;
-    border-radius: 0 0 10px 10px;
+    background-position: -840px 0px;
 }
 
 .content .content-middle {
@@ -49,8 +46,8 @@ h2 {
     color: #2b8c57;
     font-weight: normal;
     font-style: italic;
-    margin-bottom: 15px;
     margin-top: 30px;
+    margin-bottom: 15px;
 }
 
     
@@ -86,9 +83,9 @@ a.button {
 }
 
 a.button:hover {
-    background-position: 
+    background-position: 0px -40px; 
 }
 
 a.button:active {
-    background-position: 
+    background-position: 0 -80px;
 }
