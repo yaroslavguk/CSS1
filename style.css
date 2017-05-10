@@ -12,7 +12,7 @@ body {
 
 .content {
     width: 840px;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 10px;
     margin: 100px auto;
     background-color: #fff;
 }
@@ -21,12 +21,14 @@ body {
     height: 12px;
     background-image: url("img/content-bg.png");
     background-position: 0px 0px;
+    border-radius: 10px 10px 0 0;
 }
 
 .content .content-bottom {
     height: 12px;
     background-image: url("img/content-bg.png");
     background-position: 0px -840px;
+    border-radius: 0 0 10px 10px;
 }
 
 .content .content-middle {
