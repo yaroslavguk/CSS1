@@ -9,29 +9,29 @@ body {
     background-repeat: repeat-x;
     background-position: fixed;
 }
-
+    /* основний контентний блок */
 .content {
     width: 840px;
     margin: 100px auto 0px auto;
     background-color: #fff;
 }
-
+     /* верхня частина контентного блоку сторінки */
 .content .content-top {
     height: 12px;
     background-image: url("img/content-bg.png");
     background-position: 0px 0px;
 }
-
+     /* нижня частина контентного блоку сторінки */
 .content .content-bottom {
     height: 12px;
     background-image: url("img/content-bg.png");
     background-position: -840px 0px;
 }
-
+     /* внутрішній блок елемента #content */
 .content .content-middle {
     padding: 20px 30px;
 }
-    
+    /* Найважливіший заголовок */
 h1 {
     font-size: 26px;
     line-height: 36px;
@@ -39,7 +39,7 @@ h1 {
     font-weight: normal;
     margin-bottom: 10px;
    }
-
+    /* Другий заголовок */
 h2 {
     font-size: 18px;
     line-height: 28px;
@@ -50,7 +50,7 @@ h2 {
     margin-bottom: 15px;
 }
 
-    
+    /* перший блок */
 div.block-1 {
     color: #fff;
     font-style: italic;
@@ -60,7 +60,7 @@ div.block-1 {
     background-image: url("img/block-1-bg.png");
     background-repeat: repeat-x;
 }
-
+    /* другий блок */
 div.block-2 {
     color: #fff;
     font-style: italic;
@@ -71,7 +71,7 @@ div.block-2 {
     background-repeat: no-repeat;
     background-position: right bottom;
 }
-
+    /* кнопка-посилання */
 a.button {
     display: block;
     width: 121px;
@@ -81,11 +81,11 @@ a.button {
     background-repeat: no-repeat;
     background-position: 0px 0px;
 }
-
+    /* зміна кольору і фону при натисканні */
 a.button:hover {
     background-position: 0px -38px; 
 }
-
+    /* при натисканні ссилка стає активною */
 a.button:active {
     background-position: 0px -76px;
 }
