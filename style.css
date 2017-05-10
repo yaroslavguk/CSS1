@@ -83,9 +83,9 @@ a.button {
 }
 
 a.button:hover {
-    background-position: 0px -40px; 
+    background-position: 
 }
 
 a.button:active {
-    background-position: 0 -80px;
+    background-position: 
 }
