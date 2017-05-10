@@ -12,7 +12,7 @@ body {
 
 .content {
     width: 840px;
-    padding: 20px 30px;
+    border-radius: 10px;
     margin: 100px auto;
     background-color: #fff;
 }
@@ -38,7 +38,7 @@ h1 {
     line-height: 36px;
     color: #2b8c57;
     font-weight: normal;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
    }
 
 h2 {
@@ -47,8 +47,8 @@ h2 {
     color: #2b8c57;
     font-weight: normal;
     font-style: italic;
-    padding-bottom: 15px;
-    padding-top: 30px;
+    margin-bottom: 15px;
+    margin-top: 30px;
 }
 
     
@@ -77,7 +77,7 @@ a.button {
     display: block;
     width: 121px;
     height: 38px;
-    text-decoration:none
+    text-decoration: none;
     background-image: url("img/button-1.png");
     background-repeat: no-repeat;
     background-position: 0px 0px;
@@ -88,5 +88,5 @@ a.button:hover {
 }
 
 a.button:active {
-    background-position:
+    background-position: 
 }
